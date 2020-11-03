@@ -36,6 +36,16 @@
         android:background="#185173"
         android:textColor="#ffffff"
         android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/resend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resend OTP"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textColor="@android:color/black"/>
+
     <EditText
         android:id="@+id/et_otp"
         android:layout_width="match_parent"
